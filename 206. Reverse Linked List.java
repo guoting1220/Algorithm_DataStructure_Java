@@ -5,7 +5,7 @@ public class Solution {
         ListNode cur = head.next;
         ListNode nex = null;
         head.next = null;
-        while(cur){
+        while(null){
             nex = cur.next;
             cur.next = pre;
             pre = cur;
